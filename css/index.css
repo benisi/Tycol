@@ -59,6 +59,10 @@ body {
     text-align: center;
 }
 
+.features p{
+    text-align: left;
+}
+
 .features-icon {
     font-size: 3rem;
     color: #990000;
