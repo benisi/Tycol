@@ -8,6 +8,19 @@ body {
     padding: 0;
     margin: 0;
 }
+.align-right {
+    text-align: left;
+}
+.align-right h3{
+    text-align: center;
+}
+.about-us {
+    width: 100%;
+}
+.content {
+    margin: 4rem 0 1rem 0; 
+}
+
 
 .navbar-brand {
     font-weight: 900;
@@ -75,6 +88,41 @@ body {
     border-bottom: 3px solid #990000;
     margin-top: 0;
 }
+.contact-details {
+    background: #014A78;
+    color: white;
+    font-size: .9rem;
+    padding: 2rem !important;
+}
+.contact-details h4 {
+    font-size: 1.2rem;
+    color: #C4C4C4;
+}
+.submit, .submit:hover {
+    background: #014A78;
+    color: white;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+.submit:active {
+    box-shadow: none !important;
+}
+.buttom-line{
+    border: .5px solid white;
+    width: 80%;
+    margin: 0 auto;
+}
+.override-down-margin{
+    margin-bottom: 0 !important;
+}
+.form-control {
+    border-radius: 0 !important;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: #C4C4C4;
+    outline: 0px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -101,3 +149,10 @@ body {
 @media only screen and (max-width: 400px) {
 
 } 
+
+iframe {
+    width: 100%;
+    height: 350px;
+}
+
+.mapouter{position:relative;text-align:right;height:350px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:100%;}
